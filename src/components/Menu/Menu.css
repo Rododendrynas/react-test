@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+img {
+  height: 6rem;
+}
+
+a {
+  margin-left: 2rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(49, 12, 184);
+  cursor: pointer;
+}

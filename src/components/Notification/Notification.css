@@ -1,0 +1,5 @@
+.notification {
+  border: 1px solid rgb(10, 10, 10);
+  padding: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.skill {
+  border: 1px solid rgb(179, 174, 174);
+  width: calc((100% - 12rem) / 5);
+  height: 10rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  background: rgb(12, 129, 133);
+}
+
+.skill:nth-child(5n) {
+  margin-right: 0;
+}
+
+.skillTitle {
+  background: rgb(158, 64, 111);
+  margin: 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-size: 34px;
+}
+
+.skillDescription {
+  margin: 0;
+}
